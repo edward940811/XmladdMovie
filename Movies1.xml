@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Movies xmlns="http://www.public.asu.edu/~eyang12/Movie" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.public.asu.edu/~eyang12/Movie Movies.xsd ">
+   <Movie Rating="PG">
+	  <Title Runtime="123">Blade Runner</Title>
+	  <Genre>Action</Genre>
+	  <Director>
+	    <Name>
+	      <First>Danis</First>
+	      <Last>Vill</Last>
+	    </Name>
+	  </Director>
+	  <Studio>WB</Studio>
+	  <Year>2017</Year>
+  </Movie>
+   <Movie Rating="PG">
+	  <Title Runtime ="123">Antaaas</Title>
+	  <Genre>Animation</Genre>
+	  <Director>
+	    <Name>
+	      <First>Collin</First>
+	      <Last>Jay</Last>
+	    </Name>
+	  </Director>
+	  <Studio>Universal</Studio>
+	  <Year>2012</Year>
+  </Movie>
+   <Movie Rating="AC">
+	  <Title>Big Short</Title>
+	  <Genre>Drama</Genre>
+	  <Director>
+	    <Name>
+	      <First>Gareth</First>
+	      <Last>Bale</Last>
+	    </Name>
+	  </Director>
+	  <Studio>WB</Studio>
+	  <Year>2016</Year>
+  </Movie>
+   <Movie Rating="AC">
+	  <Title>Messi</Title>
+	  <Genre>Biograph</Genre>
+	  <Director>
+	    <Name>
+	      <First>Lionel</First>
+	      <Last>Messi</Last>
+	    </Name>
+	  </Director>
+	  <Studio>Universal</Studio>
+	  <Year>2013</Year>
+  </Movie>
+   <Movie Rating="NC">
+	  <Title>Chuki</Title>
+	  <Genre>Horror</Genre>
+	  <Director>
+	    <Name>
+	      <First>Dani</First>
+	      <Last>Alves</Last>
+	    </Name>
+	  </Director>
+	  <Studio>WB</Studio>
+	  <Year>2012</Year>
+  </Movie>
+   <Movie Rating="NC">
+	  <Title>Batman:The Dark Knight Rises</Title>
+	  <Genre>Action</Genre>
+	  <Director High-rated-movie="Batman:The Dark Knight Rises">
+	    <Name>
+	      <First>Christopher</First>
+	      <Last>Nolan</Last>
+	    </Name>
+	  </Director>
+	  <Director High-rated-movie="Batman:The Dark Knight Rises">
+	    <Name>
+	      <First>Jonathan</First>
+	      <Last>Nolan</Last>
+	    </Name>
+	  </Director>
+	  <Studio>WB</Studio>
+	  <Year>2012</Year>
+  </Movie>
+   <Movie Rating="PG">
+	  <Title>Batman:Batman Begins</Title>
+	  <Genre>Action</Genre>
+	  <Director High-rated-movie="Batman:The Dark Knight Rises">
+	    <Name>
+	      <First>Christopher</First>
+	      <Last>Nolan</Last>
+	    </Name>
+	  </Director>
+	  <Director High-rated-movie="Batman:The Dark Knight Rises">
+	    <Name>
+	      <First>Jonathan</First>
+	      <Last>Nolan</Last>
+	    </Name>
+	  </Director>
+	  <Studio>WB</Studio>
+	  <Year>2010</Year>
+  </Movie>
+   <Movie Rating="NC">
+	  <Title>Running man</Title>
+	  <Genre>Comedy</Genre>
+	  <Director  High-rated-movie="Boom">
+	    <Name>
+	      <First>Kim</First>
+	      <Last>Chong</Last>
+	    </Name>
+	  </Director>
+	  <Director  High-rated-movie="Dragon Kiss">
+	    <Name >
+	      <First>Lan</First>
+	      <Last>Pa</Last>
+	    </Name>
+	  </Director>
+	  <Studio>WB</Studio>
+	  <Year>2017</Year>
+  </Movie>
+   <Movie Rating="PG">
+	  <Title Runtime="23">Maze Runner</Title>
+	  <Genre>Fiction</Genre>
+	  <Director>
+	    <Name>
+	      <First>Marcelo</First>
+	      <Last>Sergio</Last>
+	    </Name>
+	  </Director>
+	  <Studio>Universal</Studio>
+	  <Year>2014</Year>
+  </Movie>
+</Movies>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="AddMovie">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Title" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Runtime" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Ratings" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Genre" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Director" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Studio" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Year" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddMovieResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="AddMovieResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

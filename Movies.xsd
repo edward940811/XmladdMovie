@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.public.asu.edu/~eyang12/Movie" 
+		xmlns:tns="http://www.public.asu.edu/~eyang12/Movie" elementFormDefault="qualified">
+<element name="Movies"> 
+<complexType>
+   	<sequence>
+    <element name="Movie"  maxOccurs="unbounded">
+    	<complexType>
+    	  <sequence>   
+    	  	<element name="Title">
+    	  		<complexType>
+    	  			<simpleContent>
+    	  				<extension base="string">
+    	  					<attribute name="Runtime" type="integer">
+    	  					</attribute>
+    	  				</extension>
+    	  			</simpleContent>
+    	  		</complexType>
+    	  	</element>
+		    <element name="Genre" type="string" />
+		    <element name="Director"  maxOccurs="unbounded">
+		      <complexType>
+		        <sequence>
+		          <element name="Name">
+		            <complexType>
+		          		<sequence>
+		          		  <element name="First" type = "string"/>
+		          	 	  <element name="Last" type = "string"/>
+		          		</sequence>
+		           </complexType>
+		         </element>
+		        </sequence>
+		        <attribute name="High-rated-movie" type="string" use="optional"/>
+		      </complexType>
+		    </element>
+		    <element name="Studio" type="string" />
+		    <element name="Year" type="integer" />
+		    </sequence>
+		   <attribute name="Rating" type="string" use="required"/>
+		</complexType>
+    </element>
+   </sequence>
+  </complexType>
+</element>
+</schema>
